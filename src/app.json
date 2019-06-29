@@ -1,0 +1,35 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/order/order",
+    "pages/personal/personal"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#48C23D",
+    "navigationBarTitleText": "点菜小程序",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#ab1419",
+    "backgroundColorTop": "#ab1419",
+    "backgroundColorBottom": "#ab1419"
+  },
+  "tabBar": {
+    "selectedColor": "0f0000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "./images/首页.png",
+      "selectedIconPath": "./images/首页selected.png"
+    },{
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "./images/订单.png",
+      "selectedIconPath": "./images/订单selected.png"
+    },{
+      "pagePath": "pages/personal/personal",
+      "text": "个人",
+      "iconPath": "./images/个人.png",
+      "selectedIconPath": "./images/个人selected.png"
+    }]
+  }
+}
