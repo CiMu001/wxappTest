@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/login/login",
     "pages/index/index",
     "pages/order/order",
     "pages/personal/personal"
@@ -27,9 +28,14 @@
       "selectedIconPath": "./images/订单selected.png"
     },{
       "pagePath": "pages/personal/personal",
-      "text": "个人",
+      "text": "我的",
       "iconPath": "./images/个人.png",
       "selectedIconPath": "./images/个人selected.png"
     }]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
   }
 }

@@ -54,7 +54,7 @@ export default [
 ```
 
 ```js
-//src/app.js
+//src/app.js wxd8d79edfed60448d
 
 import models from './models/models.js';
 
